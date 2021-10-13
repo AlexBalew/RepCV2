@@ -1,0 +1,43 @@
+.footerBlock {
+    height: 20vh;
+    background-color: darksalmon;
+    display: flex;
+    align-items: center;
+
+}
+
+.footerContainer {
+    border: 1px solid;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: inherit;
+}
+
+.footerMiddle {
+    border: 1px solid;
+    width: 40%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: darkkhaki;
+}
+
+.text {
+    background-color: #cccccc;
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+.rights {
+    font-size: 0.7em;
+}
+
+.hireButton {
+    width: 100px;
+    background: seagreen;
+    color: lightgrey;
+}

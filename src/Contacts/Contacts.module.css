@@ -1,0 +1,69 @@
+.contactsBlock {
+    height: 80vh;
+    background-color: powderblue;
+    display: flex;
+    align-items: center;
+}
+
+.contactsContainer {
+    border: 1px solid;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: inherit;
+}
+
+.formBlock {
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px
+}
+
+.formGroup label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.formGroup input, .formGroup textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #0f141e;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .formGroup {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .formGroup:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background: #0f141e;
+    color: #cccccc;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}

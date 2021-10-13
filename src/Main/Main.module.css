@@ -1,0 +1,25 @@
+.mainBlock {
+    min-height: 60vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    padding-left: 10px;
+    width: 300px;
+    background-color: gray;
+}
+
+.mainPhoto {
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .mainBlock {
+        background-color: khaki;
+    }
+}

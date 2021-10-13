@@ -1,0 +1,31 @@
+.hireBlock {
+    height: 20vh;
+    background-color: papayawhip;
+    display: flex;
+    align-items: center;
+
+}
+
+.hireContainer {
+    border: 1px solid;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: inherit;
+}
+
+.text {
+    margin-bottom: 40px;
+    background-color: moccasin;
+    font-size: 1.2em;
+}
+
+.hireButton {
+    width: 100px;
+    background: seagreen;
+    color: lightgrey;
+}
