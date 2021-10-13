@@ -6,7 +6,7 @@
 }
 
 .worksContainer {
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-direction: column;
 }
 
@@ -24,10 +24,11 @@
 }
 
 .example1 {
+    height: auto;
     flex-direction: column;
     text-align: center;
     background-image: url('https://www.photoshopsupply.com/wp-content/uploads/2020/03/old-canvas-texture.jpg');
-    height: 41vh;
+
     border: 1px solid;
     width: 500px;
     margin: 5px;
@@ -37,7 +38,7 @@
     flex-direction: column;
     text-align: center;
     background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-eye-039_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a77fd3954fb8e141fc9684ddc1f32df8');
-    height: 41vh;
+    height: auto;
     border: 1px solid;
     width: 500px;
     margin: 5px;
