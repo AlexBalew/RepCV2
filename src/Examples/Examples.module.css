@@ -51,3 +51,9 @@
     background: darkslategrey;
     color: lightgrey;
 }
+
+@media (max-width: 1029px) {
+    .works {
+        justify-content: center;
+    }
+}
